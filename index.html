@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header>
+            <nav class="navbar">
+                <p style="font-size: 0.9rem; font-weight: 500;">usamah</p>
+                <ul class="nav-menu" id="nav-menu">
+                    <li><a href="#">Beranda</a></li>
+                    <li><a href="#">Tentang saya</a></li>
+                    <li><a href="#">Portofolio</a></li>
+                    <li><a href="#">Pendidikan</a></li>
+                    <li><a href="#">beranda</a></li>
+                    <li><a href="#">pengalaman</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">kontak</a></li>
+                </ul>
+                <div class="burger-list" id="burger-list">&#9776;</div>
+            </nav>
+        </header>
+        <section class="introduction">
+            <div class="content-intro">
+                <div class="text-intro">
+                    <span>H1,,MY Nname is</span>
+                    <h1>usamah</h1>
+                    <p>it student of <a href="https://solo.idn.sch.id/" style="color: black;">IDN BOARDING SCHOOL SOLO</a></p>
+                    <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid, excepturi.</div>
+                    <button>Contact me</button>
+                    
+                </div>
+                <img src="assets/usamah.png" alt="">
+            </div>
+        </section>
+    </body>
+    <script>
+        const burgerList = document.getElementById("burger-list");
+        const navMenu = document.getElementById("nav-menu");
+
+        burgerList.addEventListener("click", () => {
+            navMenu.classList.toggle("active");
+        });
+    </script>
+</html>
