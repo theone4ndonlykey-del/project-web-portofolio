@@ -1,80 +1,154 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Document</title>
-        <link rel="stylesheet" href="style.css">
-    </head>
-    <body>
-        <header>
-            <nav class="navbar">
-                <p style="font-size: 0.9rem; font-weight: 500;">usamah</p>
-                <ul class="nav-menu" id="nav-menu">
-                    <li><a href="#">Beranda</a></li>
-                    <li><a href="#">Tentang saya</a></li>
-                    <li><a href="#">Portofolio</a></li>
-                    <li><a href="#">Pendidikan</a></li>
-                    <li><a href="#">beranda</a></li>
-                    <li><a href="#">pengalaman</a></li>
-                    <li><a href="#">Blog</a></li>
-                    <li><a href="#">kontak</a></li>
-                </ul>
-                <div class="burger-list" id="burger-list">&#9776;</div>
-            </nav>
-        </header>
-        <section class="introduction">
-            <div class="content-intro">
-                <div class="text-intro">
-                    <span style="font-size: 1rem;">H1,,MY Nname is</span>
-                    <h1 style="font-size: 2.5;">usamah</h1>
-                    <p>it student of <a href="https://solo.idn.sch.id/" style="color: black;">IDN BOARDING SCHOOL SOLO</a></p>
-                    <div style="font-size: 0.8rem;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid, excepturi.</div>
-                    <button>Contact me</button>
-                    
-                </div>
-                <img src="assets/usamah.png" alt="">
-            </div>
-        </section>
-        <section class="about-me" id="about-me">
-            <div class="about-me-session">
-                <div class="about-me-content">
-                    <div class="about-me-text">
-                        <h3>tentang saya</h3>
-                        <P>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel officia et maxime eveniet quo, provident commodi amet. Cum sequi hic iste, soluta necessitatibus assumenda perferendis expedita cumque excepturi. Amet, maxime odio asperiores commodi totam soluta?</P>  
-                    </div>
-                    <div class="about-me-text">
-                        <h3>tentang saya</h3>
-                        <P>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel officia et maxime eveniet quo, provident commodi
-                            amet. Cum sequi hic iste, soluta necessitatibus assumenda perferendis expedita cumque excepturi. Amet, maxime
-                            odio asperiores commodi totam soluta?</P>
-                    </div>
-                </div>
-                <div class="about-me-content">
-                    <div class="about-me-text">
-                        <h3>tentang saya</h3>
-                        <P>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel officia et maxime eveniet quo, provident
-                            commodi amet. Cum sequi hic iste, soluta necessitatibus assumenda perferendis expedita cumque excepturi.
-                            Amet, maxime odio asperiores commodi totam soluta?</P>
-                    </div>
-                    <div class="about-me-text">
-                        <h3>tentang saya</h3>
-                        <P>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel officia et maxime eveniet quo, provident
-                            commodi
-                            amet. Cum sequi hic iste, soluta necessitatibus assumenda perferendis expedita cumque excepturi. Amet,
-                            maxime
-                            odio asperiores commodi totam soluta?</P>
-                    </div>
-                </div>
-            </div>
-        </section>
-    </body>
-    <script>
-        const burgerList = document.getElementById("burger-list");
-        const navMenu = document.getElementById("nav-menu");
 
-        burgerList.addEventListener("click", () => {
-            navMenu.classList.toggle("active");
-        });
-    </script>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio-usamah</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="assets/logo web.png">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <p style="font-size: 0.9rem; font-weight: 500;">usamah</p>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="#">Beranda</a></li>
+                <li><a href="#about-me">Tentang saya</a></li>
+                <li><a href="#porto">project</a></li>
+                <li><a href="#pendidikan">Pendidikan</a></li>
+                <li><a href="#kontak">kontak</a></li>
+            </ul>
+            <div class="burger-list" id="burger-list">&#9776;</div>
+        </nav>
+    </header>
+    <section class="introduction">
+        <div class="content-intro">
+            <div class="text-intro">
+                <span style="font-size: 1rem;">H1,,MY Nname is</span>
+                <h1 style="font-size: 2.5;">usamah</h1>
+                <p>it student of <a href="https://solo.idn.sch.id/" style="color: black;">IDN BOARDING SCHOOL SOLO</a>
+                </p>
+                <div style="font-size: 0.8rem;">BORN IN SLEMAN AT 27 APRIL 2010</div>
+                <a href="#kontak"><button>Contact me</button></a>
+            </div>
+            <img src="assets/usamah.png" alt="">
+        </div>
+    </section>
+    <section class="about-me" id="about-me">
+        <div class="about-me-session">
+            <div class="about-me-content">
+                <div class="about-me-text">
+                    <h3>tentang saya</h3>
+                    <P>lahir di sleman pada tanggal 27 april 2010 di sleman dari bapak dan ibu yang berbedaa provinsi
+                        babak saya asli orang jawa. dan ibu saya asli orang sumatra.</P>
+                </div>
+                <div class="about-me-text">
+                    <h3>saya di masa sd</h3>
+                    <P>saya di masa sd saya selalu pindah pindah karena perkerjaan bapak saya sebagai PNS di lembaga
+                        KEMENKU jadi saya sering pindah-pindah dan saya juga ganti-ganti sd jika semua di total bisa
+                        jadi ada 6 sd mulai dari denpasar,bangka belitung,jakarta,bengkulu.</P>
+                </div>
+            </div>
+            <div class="about-me-content">
+                <div class="about-me-text">
+                    <h3>saya di masa smp</h3>
+                    <P>setelah saya lulus dai sdn 3 muko-muko saya melanjutkan pendidikan saya di bangka belitug yaitu
+                        di MAHAD MTAQ ZIRR BIN HUBAISY dengan bertujuan untuk membangun AQIDAH salafi dan MENGHAFAL
+                        AL-QURAN selama 3 tahun.</P>
+                </div>
+                <div class="about-me-text">
+                    <h3>saya di masa smk</h3>
+                    <P>setelah saya lulus dari MAHAD di bangka belitung saya tertarik akan design dan progam karena
+                        terinpirasi untuk belajar coding untuk membuat web untuk umat muslim karena sekarang kita sudah
+                        di keliling oleh teknologi jadi saya ingin membangun sebuah website yang bisa membantu untuk
+                        umat muslim.</P>
+
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <section class="porto" id="porto">
+        <dic class="content-porto">
+            <div class="header-porto">
+                <h3 style="font-size:3rem;">PROJECT</h3>
+                <span>a project ive found</span>
+            </div>
+            <div class="project-porto">
+                <div class="list-project-porto">
+                    <figure class="project-item-porto">
+                        <img src="assets/portofolio web.png" alt="">
+                        <h4>project web</h4>
+                        <p>this is my portofolio website if you want to know about me</p>
+                        <a href="">check it out!</a>
+                    </figure>
+                </div>
+            </div>
+        </dic>
+    </section>
+    <section class="pendidikan" id="pendidikan">
+        <div class="content-pendidikan">
+            <div class="header-pendidikan">
+                <h3 style="font-size: 3rem;">riwayat pendidikan</h3>
+                <p>riwayat pendidikan</p>
+            </div>
+            <ul class="list-pendidikan">
+                <a href="https://alqudwah-pkp.sch.id/" target="_blank">
+                    <li><img src="assets/sd.png" alt=""></li>
+                </a>
+                <a href="https://www.instagram.com/mtaqzirrbinhubaisy/" target="_blank">
+                    <li><img src="assets/MTAQ.png" alt=""></li>
+                </a>
+                <a href="https://solo.idn.sch.id/" target="_blank">
+                    <li><img src="assets/idn.png" alt=""></li>
+                </a>
+            </ul>
+        </div>
+    </section>
+    <section class="contact-me-header" id="kontak">
+        <div class="contact-me-logo">
+            <h3 style="font-size:3rem;">more about me</h3>
+            <p>for more information about me here of some my media</p>
+        </div>
+        <div class="list-contact">
+            <ul class="list-contact">
+                <li>
+                    <a href="https://www.instagram.com/y0_rrri/" target="_blank">
+                        <img src="assets/instagram.png" alt="Instagram" width="60px">
+                    </a>
+                </li>
+                <li>
+                    <a href="https://github.com/theone4ndonlykey-del" target="_blank">
+                        <img src="assets/git hub.png" alt="git hub" width="60px">
+                    </a>
+                </li>
+                <li>
+                    <a href="https://x.com/Theonlykey59957" target="_blank">
+                        <img src="assets/twitter.png" alt="twitter" width="60px">
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.youtube.com/@usamah-j9n" target="_blank">
+                        <img src="assets/youtube.png" alt="youtube" width="60px">
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <section class="footer"></section>
+
+
+
+</body>
+<script>
+    const burgerList = document.getElementById("burger-list");
+    const navMenu = document.getElementById("nav-menu");
+
+    burgerList.addEventListener("click", () => {
+        navMenu.classList.toggle("active");
+    });
+</script>
+
 </html>

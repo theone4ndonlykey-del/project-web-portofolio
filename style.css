@@ -9,12 +9,16 @@ header {
     justify-content: center;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 section {
-    height: 100vh;
+    min-height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 0 16%;
+    padding: 0 6%;
 }
 
 /* NAVBAR-SECTION */
@@ -180,3 +184,169 @@ section {
     }
 }
 /* ABOUT-ME END */
+
+/* SECTION-PORTO */
+.porto {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.header-porto{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-top: 2rem;
+}
+
+.content-porto{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+}
+
+.project-porto{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+    padding: 0 10%;
+}
+
+@media(max-width: 768px){
+    .project-porto{
+        flex-direction: column;
+        gap: 4rem;
+        pad: 0 0;
+    }
+}
+
+
+.list-project-porto{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 4rem;
+    width: 100%;
+}
+
+.project-item-porto{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   text-align: center;
+   
+}
+
+.project-item-porto img{
+    height: auto;
+    max-width: 100%;
+}
+.project-item-porto h4{
+    font-size:1.5rem;
+    padding-top: 1.5rem;
+}
+/* SECTION-PORTO-END*/
+
+
+/* SECTION-PENDIDIKAN */
+
+.pendidikan {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: cornflowerblue;
+}
+.content-pendidikan{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    gap: 3rem;
+}
+
+
+.header-pendidikan{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+}
+
+.list-pendidikan{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+   list-style-type: none;
+   justify-content: center;
+   width: 100%;
+   gap: 3rem;
+   padding: 0 10%;
+
+}
+
+.list-pendidikan :hover {
+    transform: scale(1.1);
+}
+
+
+.list-pendidikan li{
+    max-width: 150px;
+}
+
+.list-pendidikan li img{
+    height: auto;
+    max-width: 100%;
+}
+
+
+@media (max-width:768px ){
+    .list-pendidikan{
+       gap: 1.5rem;
+       padding: 0 5%;
+    }
+
+     .list-pendidikan li {
+            max-width: 100px;
+        }
+
+
+}
+/* SECTION-PENDIDIKAN END */
+
+/* section contact me */
+.contact-me-header{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.list-contact{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+   list-style-type: none;
+   justify-content: center;
+   width: 100%;
+   gap: 3rem;
+   padding: 0 10rem;
+   padding-top:  3rem;
+   transition: transform 0.3 ease;
+}
+
+.list-contact li{
+    max-width: 100%;
+}
+
+.list-contact li :hover {
+    transform: scale(1.1);
+}
+/* SECTION CONTACT ME END */
+
+/* footer */
+
+/* footer end */
